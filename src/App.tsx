@@ -12,6 +12,10 @@ const App = () => {
   return (
     <div className="App">
       <ColorChip color={color}>Chip</ColorChip>
+      <ColorChip color={color}>Chip</ColorChip>
+
+      <ColorChip color={color}>Chip</ColorChip>
+
       <ColorPicker
         name="color"
         defaultValue="#000"
